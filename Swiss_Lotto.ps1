@@ -1,8 +1,8 @@
 # --------------------------------------------
-# Datei:		Swiss_Lozzo
+# Datei:		Swiss_Lotto
 # Datum:		19.06.2022
 # Erstellerin:	Maria-Nives Gallo
-# Version:		<1>
+# Version:		<1.0>
 # Beschreibung: <Erstellt Lottozahlen und zusätzliche Zahl und speichert diese in einer Datei ab>
 # --------------------------------------------
 
@@ -89,7 +89,6 @@ do {
         Add-Content $PfadTippZahlen " "
 
     }
-
     #Abbruchsbedingung einlesen
     $Finish = Read-Host "Möchten Sie nochmals Tippen, ja = 1, nein = 0 ?"
 
